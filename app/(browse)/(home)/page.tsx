@@ -1,11 +1,10 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { TodayEvent } from "@/interfaces/events-today";
 import { getSchedule } from "@/services/api-lol";
 import { filterByTodayDate } from "@/utils/filterByToday";
 import { useEffect, useState } from "react";
-import { GameCard } from "../_components/game-card/GameCard";
+import { GameCard } from "./_components/game-card/GameCard";
 
 export default function Home() {
   const [todayEvents, setTodayEvents] = useState<TodayEvent[]>([]);

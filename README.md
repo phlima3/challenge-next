@@ -34,3 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Porque Fiz o projeto dessa forma.
+
+- Usei next, pois julgo ser uma ferramenta muito poderosa e que facilita muito o desenvolvimento de aplicações web.
+- Utilizei a plataforma clerk para auth, pq a integração é muito simples e a documentação é muito boa.
+- Tailwind também coloquei porque julgo que acelera muito o desenvolvimento.
