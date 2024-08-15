@@ -1,5 +1,5 @@
 import { TodayEvent } from "@/interfaces/events-today";
-
+//addd all the events that are happening today
 let date = new Date(Date.now());
 export function filterByTodayDate(event: TodayEvent) {
   let eventDate = event.startTime.toString().split("T")[0].split("-");
